@@ -47,5 +47,8 @@ if __name__ == "__main__":
         instagram(username, password, target_user)
     except NoSuchElementException:
         print(f"\n{'-'*5} All Pictures Liked Succesfully XD {'-'*5}")
+    except Exception as e:
+        print("\n",e)
+        print("\n\nSorry there is some issue, you have to rerun the script")
     
     
