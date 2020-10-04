@@ -36,7 +36,7 @@ def instagram(username, password, target_user):
 
         next_button = driver.find_element_by_class_name("coreSpriteRightPaginationArrow")
         next_button.click()
-        time.sleep(1)
+        time.sleep(2)
 
 
 if __name__ == "__main__":
