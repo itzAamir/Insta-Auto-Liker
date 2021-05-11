@@ -1,0 +1,9 @@
+# The ignore file list - InstaLike
+# ----
+# 1. Ignore the cache directories and also those directories containing the test files and else.
+# ----
+
+__pycache__/
+tests/
+test/
+modules/
